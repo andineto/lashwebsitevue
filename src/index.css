@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face{
+            font-family: "Imperial Script";
+            font-weight: 400;
+            font-style: normal;
+            src: url(./assets/fonts/ImperialScript-Regular.ttf);
+    }
+}
+
+@layer components{
+    .customBg-1{
+        @apply flex flex-col w-full self-stretch bg-gradient-to-b from-[#FCF1ED] from-10% via-[#E2D8D4] via-85% to-[#D4CAC7] to-100% md:flex-row;
+    }
+    .customBg-2{
+        @apply flex flex-col w-full bg-gradient-to-b from-[#D4CAC7] from-10% via-[#FCF1ED] via-85% to-[#FCF1ED] to-100% lg:flex-row;
+    }
+}
