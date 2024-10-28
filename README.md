@@ -1,4 +1,4 @@
-# site-bia
+# LashDesignWebSite
 
 ## Project setup
 ```
