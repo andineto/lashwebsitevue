@@ -14,7 +14,7 @@
             <p class="order-3 text-center text-sm leading-4 w-full max-h-14 md:max-h-full tracking-widest overflow-scroll md:overflow-auto">
               {{ product.description }}
             </p>
-            <a href="" class="mx-2 order-4 flex flex-row justify-center items-center p-4 gap-3 w-full h-9 bg-[#32302F] text-white rounded-2xl">Agende seu horário -></a>
+            <a href="http://maapp.com.br/biaribeirolash" class="mx-2 order-4 flex flex-row justify-center items-center p-4 gap-3 w-full h-9 bg-[#32302F] text-white rounded-2xl">Agende seu horário -></a>
           </div>
         </Slide>
   
